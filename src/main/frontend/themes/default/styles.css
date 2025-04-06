@@ -1,0 +1,22 @@
+:root {
+    --lumo-primary-color: #C7DB9C;
+    --lumo-primary-text-color: #E50046;
+
+    --lumo-base-color: #FFF0BD;
+    --lumo-base-text-color: #E50046;
+
+    --lumo-border-color: #E50046;
+    --lumo-contrast-color: #8ac926;
+
+    --lumo-font-family: 'Comic Sans MS', sans-serif;
+}
+
+.canvas-picker {
+    background-color: #00c49a;
+    font-family: 'ravie', sans-serif;
+}
+.paint-multi-picker {
+    background-color: #b7e4c7;
+    border-radius: 10px;
+}
+

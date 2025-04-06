@@ -1,0 +1,70 @@
+.pixel-button {
+    background-color: #ffc107;
+    border: 3px solid black;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 1rem;
+    color: black;
+    padding: 8px 12px;
+    box-shadow: 4px 4px 0 black;
+    transition: 0.2s;
+}
+
+.pixel-button:hover {
+    background-color: #ffe082;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 black;
+    cursor: pointer;
+}
+.admin-view vaadin-grid::part(cell),
+.admin-view vaadin-grid-cell-content {
+  color: black;
+  font-family: monospace;
+}
+.admin-view input,
+.admin-view vaadin-text-field::part(input-field),
+.admin-view vaadin-text-field::part(text-field){
+  color: black;
+  font-family: monospace;
+  background: #ffc107;
+}
+
+.admin-view vaadin-checkbox {
+  font-family: monospace;
+  color: black;
+}
+.admin-view vaadin-checkbox::part(checkbox) {
+  background-color: black;
+  border: 2px solid #ffc107;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.admin-view vaadin-checkbox::part(label) {
+  background-color: transparent;
+  color: black;
+  font-family: monospace;
+}
+.admin-view vaadin-grid::part(header-cell) {
+  background-color: #ffecb3;
+  color: black;
+  font-family: monospace;
+  border: 1px solid black;
+}
+
+
+
+
+.admin-view h2,
+.admin-view label {
+  color: black;
+  font-family: monospace;
+}
+:host(.admin-view) {
+  color: black;
+  font-family: monospace;
+}
+
+
+
